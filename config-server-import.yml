@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/whyaneel/azsc-config-server.git
+          username: whyaneel
+          password: YOUR_GITHUB_PAT
