@@ -1,4 +1,6 @@
-## Azure Spring Cloud approach for Microservices Architecture
+## Microservice Architecture with Azure Spring Cloud
+
+### Looking for [Detailed Approach](https://github.com/whyaneel/azure-spring-cloud-demo/wiki)
 
 ### Quickly Load Env Variables
 - After you add your Subscription
@@ -21,6 +23,8 @@ Use Azure Web Portal to map Github repo [azsc-config-server](https://github.com/
 
 For Simplicity, I've generated [config-server-import.yml](https://raw.githubusercontent.com/whyaneel/azure-spring-cloud-demo/master/config-server-import.yml) file where we'll mention SpringCloudConfigServerGit-Uri, username, and password (**Github PAT**) and import this in Azure Web Portal under _Spring Cloud > Config Server_
 
+#### - Create Azure Database for Postgres
+Follow Steps mentioned in  `./setup_azure_postgres.sh`
 
 
 ### Create Apps (Microservices) in Spring Cloud

@@ -8,3 +8,4 @@ AZ_POSTGRES_REPLICA_SERVER=azsc-search-directory-replica
 AZ_POSTGRESQL_ADMIN_USER=postgres
 AZ_POSTGRESQL_ADMIN_PASSWORD=Im4mPalo#
 AZ_DATABASE_NAME=azsc-demo
+AZ_POSTGRES_REPLICA_SERVER=azsc-search-directory-replica
